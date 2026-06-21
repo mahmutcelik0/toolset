@@ -19,7 +19,7 @@ export default function AdSlot({
       <div
         className={`flex items-center justify-center border border-dashed border-white/10 rounded-lg text-xs text-white/20 font-mono tracking-widest ${className}`}
       >
-        ADVERTISEMENT
+        ADVERTISEMENT 2
       </div>
     )
   }
