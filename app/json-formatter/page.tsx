@@ -6,7 +6,7 @@ import JsonFormatter from "@/components/JsonFormatter"
 export const metadata: Metadata = {
   title: "JSON Formatter & Validator",
   description: "JSON kodunu anında formatla, doğrula ve minify et. Ücretsiz online araç.",
-  alternates: { canonical: "toolset-ten.vercel.app" },
+  alternates: { canonical: "https://toolset-ten.vercel.app" },
 }
 
 export default function Page() {

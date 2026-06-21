@@ -8,7 +8,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" })
 export const metadata: Metadata = {
   title: { default: "DevTools — Ücretsiz Geliştirici Araçları", template: "%s | DevTools" },
   description: "JSON formatter, Regex tester, CSS minifier ve daha fazlası. Ücretsiz, kayıt gerektirmez.",
-  metadataBase: new URL("toolset-ten.vercel.app"),
+  metadataBase: new URL("https://toolset-ten.vercel.app"),
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
