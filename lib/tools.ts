@@ -22,6 +22,7 @@ export type ToolGroupId =
   | "sql"
   | "web"
   | "productivity"
+  | "yaml"
 
 export interface ToolCategory {
   id: ToolCategoryId
@@ -96,11 +97,11 @@ function tool(
 export const tools: Tool[] = [
   // JSON
   tool("json-formatter", "JSON Formatter", "Format, validate and beautify JSON", "developer", "json", "{}", ["json", "formatter", "validate", "beautify", "pretty"], { href: "/json-formatter", popular: true }),
-  tool("json-minifier", "JSON Minifier", "Compress JSON by removing whitespace", "developer", "json", "{}", ["json", "minify", "compress", "compact"]),
-  tool("json-validator", "JSON Validator", "Check if JSON syntax is valid", "developer", "json", "{}", ["json", "validator", "validate", "syntax", "check"]),
-  tool("json-escape", "JSON Escape / Unescape", "Escape or unescape JSON strings", "developer", "json", "{}", ["json", "escape", "unescape", "string"]),
-  tool("json-to-yaml", "JSON to YAML", "Convert JSON data to YAML format", "developer", "json", "{}", ["json", "yaml", "convert"]),
-  tool("yaml-to-json", "YAML to JSON", "Convert YAML data to JSON format", "developer", "json", "{}", ["yaml", "json", "convert"]),
+  tool("json-minifier", "JSON Minifier", "Compress JSON by removing whitespace", "developer", "json", "{}", ["json", "minify", "compress", "compact", "minifier", "compressor"],{ href: "/json-minifier", popular: true }),
+  tool("json-validator", "JSON Validator", "Check if JSON syntax is valid", "developer", "json", "✅", ["json", "validator", "validate", "syntax", "checker", "doğrulama"], { href: "/json-validator", popular: true }),
+  tool("json-escape", "JSON Escape / Unescape", "Escape or unescape JSON strings", "developer", "json", "🔒", ["json", "escape", "unescape", "special characters", "escape json", "unescape json"], { href: "/json-escape" }),
+  tool("json-to-yaml", "JSON to YAML", "Convert JSON data to YAML format", "developer", "json", "📄", ["json", "yaml", "convert", "transformer", "json to yaml", "yaml generator"], { href: "/json-to-yaml" }),
+  tool("yaml-to-json", "YAML to JSON", "Convert YAML data to JSON format", "developer", "json", "📄", ["yaml", "json", "convert", "transformer", "yaml to json", "json generator"], { href: "/yaml-to-json" }),
   tool("json-to-xml", "JSON to XML", "Convert JSON data to XML format", "developer", "json", "{}", ["json", "xml", "convert"]),
   tool("xml-to-json", "XML to JSON", "Convert XML data to JSON format", "developer", "json", "{}", ["xml", "json", "convert"]),
   tool("json-diff", "JSON Diff Viewer", "Compare two JSON objects side by side", "developer", "json", "{}", ["json", "diff", "compare", "viewer"], { isNew: true }),

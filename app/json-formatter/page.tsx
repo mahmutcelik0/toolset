@@ -1,7 +1,7 @@
 // app/json-formatter/page.tsx
 import type { Metadata } from "next"
 import ToolLayout from "@/components/ToolLayout"
-import JsonFormatter from "@/components/JsonFormatter"
+import JsonFormatter from "@/components/json/JsonFormatter"
 
 export const metadata: Metadata = {
   title: "JSON Formatter & Validator",
