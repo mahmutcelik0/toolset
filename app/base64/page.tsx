@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <ToolLayout title="Base64 Encoder / Decoder" description="Metni Base64'e çevir veya geri dönüştür.">
+    <ToolLayout title="Base64 Encoder / Decoder" description="Metni Base64'e çevir veya geri dönüştür." toolId="base64-decode">
       <Base64Tool />
     </ToolLayout>
   )

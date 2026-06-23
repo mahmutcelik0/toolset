@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <ToolLayout title="Regex Tester" description="Pattern yaz, eşleşmeleri anlık gör.">
+    <ToolLayout title="Regex Tester" description="Pattern yaz, eşleşmeleri anlık gör." toolId="regex-tester">
       <RegexTester />
     </ToolLayout>
   )

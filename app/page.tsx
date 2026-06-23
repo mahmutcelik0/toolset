@@ -1,14 +1,12 @@
 import type { Metadata } from "next"
 import HeroSearch from "@/components/home/HeroSearch"
 import CategoryGrid from "@/components/home/CategoryGrid"
-import TrendingTools from "@/components/home/TrendingTools"
-import PopularTools from "@/components/home/PopularTools"
+import ToolScrollRow from "@/components/home/ToolScrollRow"
 import WhyToolset from "@/components/home/WhyToolset"
-import NewTools from "@/components/home/NewTools"
-import CategorySections from "@/components/home/CategorySections"
+import { popularTools, newTools, favoriteTools } from "@/lib/tools"
 
 export const metadata: Metadata = {
-  title: "500+ Free Online Tools — ToolSetApp",
+  title: "500+ Free Online Tools",
   description:
     "Free online tools for developers, PDFs, images and more. JSON formatter, regex tester, PDF converter and 500+ tools. No registration required.",
 }
@@ -17,12 +15,11 @@ export default function Home() {
   return (
     <main className="flex-1 bg-[#0f172a]">
       <HeroSearch />
+      <ToolScrollRow title="Popular Tools" emoji="🔥" tools={popularTools} />
       <CategoryGrid />
-      <TrendingTools />
-      <PopularTools />
+      <ToolScrollRow title="Recently Added" emoji="🆕" badge="New" tools={newTools} />
+      <ToolScrollRow title="Developer Favorites" emoji="⭐" tools={favoriteTools} />
       <WhyToolset />
-      <NewTools />
-      <CategorySections />
     </main>
   )
 }

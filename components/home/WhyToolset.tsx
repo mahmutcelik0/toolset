@@ -1,24 +1,8 @@
 const features = [
-  {
-    icon: "⚡",
-    title: "Fast",
-    description: "All tools run instantly",
-  },
-  {
-    icon: "🔒",
-    title: "Private",
-    description: "Files stay in your browser",
-  },
-  {
-    icon: "💯",
-    title: "Free",
-    description: "No registration required",
-  },
-  {
-    icon: "🌎",
-    title: "Global",
-    description: "Available everywhere",
-  },
+  { icon: "⚡", title: "Fast", description: "All tools run instantly" },
+  { icon: "🔒", title: "Private", description: "Files stay in your browser" },
+  { icon: "💯", title: "Free", description: "No registration required" },
+  { icon: "🌎", title: "No Registration", description: "Start using tools immediately" },
 ]
 
 export default function WhyToolset() {
@@ -26,10 +10,10 @@ export default function WhyToolset() {
     <section className="px-6 py-16 border-t border-white/5">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl font-semibold text-white mb-10 text-center">
-          Why ToolSetApp?
+          Why toolsetapp?
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {features.map((f) => (
             <div
               key={f.title}

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <ToolLayout title="CSS Minifier & Beautifier" description="CSS'i minify et, boyutunu küçült veya güzel formatla.">
+    <ToolLayout title="CSS Minifier & Beautifier" description="CSS'i minify et, boyutunu küçült veya güzel formatla." toolId="css-minifier">
       <CSSTools />
     </ToolLayout>
   )

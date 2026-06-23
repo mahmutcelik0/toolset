@@ -14,6 +14,7 @@ export default function Page() {
     <ToolLayout
       title="JSON Formatter & Validator"
       description="JSON'u anında formatla, doğrula ve minify et — ücretsiz, kayıt gerektirmez."
+      toolId="json-formatter"
     >
       <JsonFormatter />
     </ToolLayout>
