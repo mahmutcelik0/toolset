@@ -102,10 +102,10 @@ export const tools: Tool[] = [
   tool("json-escape", "JSON Escape / Unescape", "Escape or unescape JSON strings", "developer", "json", "🔒", ["json", "escape", "unescape", "special characters", "escape json", "unescape json"], { href: "/json-escape" }),
   tool("json-to-yaml", "JSON to YAML", "Convert JSON data to YAML format", "developer", "json", "📄", ["json", "yaml", "convert", "transformer", "json to yaml", "yaml generator"], { href: "/json-to-yaml" }),
   tool("yaml-to-json", "YAML to JSON", "Convert YAML data to JSON format", "developer", "json", "📄", ["yaml", "json", "convert", "transformer", "yaml to json", "json generator"], { href: "/yaml-to-json" }),
-  tool("json-to-xml", "JSON to XML", "Convert JSON data to XML format", "developer", "json", "{}", ["json", "xml", "convert"]),
-  tool("xml-to-json", "XML to JSON", "Convert XML data to JSON format", "developer", "json", "{}", ["xml", "json", "convert"]),
-  tool("json-diff", "JSON Diff Viewer", "Compare two JSON objects side by side", "developer", "json", "{}", ["json", "diff", "compare", "viewer"], { isNew: true }),
-  tool("json-schema", "JSON Schema Validator", "Validate JSON against a JSON Schema", "developer", "json", "{}", ["json", "schema", "validator", "validate"]),
+  tool("json-to-xml", "JSON to XML", "Convert JSON data to XML format", "developer", "json", "🔖", ["json", "xml", "convert", "transformer", "json to xml", "xml generator"], { href: "/json-to-xml" }),
+  tool("xml-to-json", "XML to JSON", "Convert XML data to JSON format", "developer", "json", "🔖", ["xml", "json", "convert", "transformer", "xml to json", "json generator"], { href: "/xml-to-json" }),
+  tool("json-diff-viewer", "JSON Diff Viewer", "Compare two JSON objects side by side", "developer", "json", "🔍", ["json", "diff", "compare", "viewer", "comparator", "fark"], { href: "/json-diff-viewer" }),
+  tool("json-schema-validator", "JSON Schema Validator", "Validate JSON against a JSON Schema", "developer", "json", "📋", ["json", "schema", "validate", "validator", "json schema", "doğrulama"], { href: "/json-schema-validator" }),
 
   // Regex
   tool("regex-tester", "Regex Tester", "Test regular expressions with live matching", "developer", "regex", ".*", ["regex", "regular expression", "pattern", "test", "match"], { href: "/regex-tester", popular: true }),
