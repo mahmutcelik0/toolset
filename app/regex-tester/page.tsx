@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import ToolLayout from "@/components/ToolLayout"
-import RegexTester from "@/components/RegexTester"
+import RegexTester from "@/components/regex/RegexTester"
 
 export const metadata: Metadata = {
   title: "Regex Tester",

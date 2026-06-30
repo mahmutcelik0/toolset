@@ -109,24 +109,24 @@ export const tools: Tool[] = [
 
   // Regex
   tool("regex-tester", "Regex Tester", "Test regular expressions with live matching", "developer", "regex", ".*", ["regex", "regular expression", "pattern", "test", "match"], { href: "/regex-tester", popular: true }),
-  tool("regex-cheat-sheet", "Regex Cheat Sheet", "Quick reference for regex syntax", "developer", "regex", ".*", ["regex", "cheat sheet", "reference", "syntax"]),
-  tool("regex-generator", "Regex Generator", "Build regex patterns from examples", "developer", "regex", ".*", ["regex", "generator", "pattern", "build"]),
-  tool("regex-replace", "Regex Replace Tester", "Test find-and-replace with regex", "developer", "regex", ".*", ["regex", "replace", "find", "substitute"]),
+  tool("regex-cheat-sheet", "Regex Cheat Sheet", "Quick reference for regex syntax", "developer", "regex", "📖", ["regex", "cheat sheet", "regular expression", "reference", "syntax"], { href: "/regex-cheat-sheet" }),
+  tool("regex-generator", "Regex Generator", "Generate regular expressions from text", "developer", "regex", "⚡", ["regex", "generator", "create regex", "regex builder", "regular expression"], { href: "/regex-generator" }),
+  tool("regex-replace-tester", "Regex Replace Tester", "Test regular expression replacements", "developer", "regex", "🔄", ["regex", "replace", "replace tester", "regex replace", "regular expression replace"], { href: "/regex-replace-tester" }),
 
   // Encoding
   tool("base64-encode", "Base64 Encode", "Encode text to Base64 format", "developer", "encoding", "🔤", ["base64", "encode", "encoding"], { href: "/base64", favorite: true }),
   tool("base64-decode", "Base64 Decode", "Decode Base64 strings to plain text", "developer", "encoding", "🔤", ["base64", "decode", "decoding"], { href: "/base64", popular: true, favorite: true }),
-  tool("url-encode", "URL Encode", "Encode special characters for URLs", "developer", "encoding", "🔤", ["url", "encode", "uri", "percent"]),
-  tool("url-decode", "URL Decode", "Decode URL-encoded strings", "developer", "encoding", "🔤", ["url", "decode", "uri", "percent"]),
-  tool("html-encode", "HTML Encode", "Encode HTML special characters", "developer", "encoding", "🔤", ["html", "encode", "entities"]),
-  tool("html-decode", "HTML Decode", "Decode HTML entities to plain text", "developer", "encoding", "🔤", ["html", "decode", "entities"]),
-  tool("unicode-encode", "Unicode Encode", "Convert text to Unicode escape sequences", "developer", "encoding", "🔤", ["unicode", "encode", "escape"]),
-  tool("unicode-decode", "Unicode Decode", "Decode Unicode escape sequences", "developer", "encoding", "🔤", ["unicode", "decode", "unescape"]),
+  tool("url-encode", "URL Encode", "Encode URLs", "developer", "encoding", "🔗", ["url", "encode", "url encode", "url encoder", "encoding"], { href: "/url-encode" }),
+  tool("url-decode", "URL Decode", "Decode encoded URLs", "developer", "encoding", "🔓", ["url", "decode", "url decode", "url decoder", "decoding"], { href: "/url-decode" }),
+  tool("html-encode", "HTML Encode", "Encode HTML special characters", "developer", "encoding", "🔐", ["html", "encode", "html encode", "html encoder", "entities", "xss protection"], { href: "/html-encode" }),
+  tool("html-decode", "HTML Decode", "Decode HTML entities", "developer", "encoding", "🔓", ["html", "decode", "html decode", "html decoder", "entities"], { href: "/html-decode" }),
+  tool("unicode-encode", "Unicode Encode", "Encode text to Unicode format", "developer", "encoding", "🔐", ["unicode", "encode", "unicode encode", "unicode encoder", "unicode converter"], { href: "/unicode-encode" }),
+  tool("unicode-decode", "Unicode Decode", "Decode Unicode to text", "developer", "encoding", "🔓", ["unicode", "decode", "unicode decode", "unicode decoder", "unicode converter"], { href: "/unicode-decode" }),
 
   // JWT
-  tool("jwt-decoder", "JWT Decoder", "Decode and inspect JSON Web Tokens", "developer", "jwt", "🔑", ["jwt", "token", "decode", "json web token"], { popular: true }),
-  tool("jwt-encoder", "JWT Encoder", "Create and sign JSON Web Tokens", "developer", "jwt", "🔑", ["jwt", "token", "encode", "sign"]),
-  tool("jwt-expiry", "JWT Expiry Checker", "Check JWT expiration and claims", "developer", "jwt", "🔑", ["jwt", "expiry", "expiration", "claims"]),
+  tool("jwt-decoder", "JWT Decoder", "Decode JWT tokens and view header and payload", "developer", "jwt", "🔑", ["jwt", "decoder", "jwt token", "json web token", "decode jwt", "jwt parser"], { href: "/jwt-decoder" }),
+  tool("jwt-encoder", "JWT Encoder", "Generate JWT tokens from header and payload", "developer", "jwt", "🔐", ["jwt", "encoder", "generate jwt", "jwt token", "json web token", "jwt generator"], { href: "/jwt-encoder" }),
+  tool("jwt-expiry-checker", "JWT Expiry Checker", "Check JWT token expiration and remaining time", "developer", "jwt", "⏰", ["jwt", "expiry", "expiration", "checker", "jwt token", "expiry checker", "token expiry"], { href: "/jwt-expiry-checker" }),
 
   // Hash & Crypto (security category)
   tool("md5-generator", "MD5 Generator", "Generate MD5 hash from any text", "security", "hash", "#", ["md5", "hash", "checksum", "crypto"]),

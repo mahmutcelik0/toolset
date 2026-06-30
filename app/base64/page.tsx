@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import ToolLayout from "@/components/ToolLayout"
-import Base64Tool from "@/components/Base64Tool"
+import Base64Tool from "@/components/encode/Base64Tool"
 
 export const metadata: Metadata = {
   title: "Base64 Encoder & Decoder",
