@@ -129,12 +129,12 @@ export const tools: Tool[] = [
   tool("jwt-expiry-checker", "JWT Expiry Checker", "Check JWT token expiration and remaining time", "developer", "jwt", "⏰", ["jwt", "expiry", "expiration", "checker", "jwt token", "expiry checker", "token expiry"], { href: "/jwt-expiry-checker" }),
 
   // Hash & Crypto (security category)
-  tool("md5-generator", "MD5 Generator", "Generate MD5 hash from any text", "security", "hash", "#", ["md5", "hash", "checksum", "crypto"]),
-  tool("sha1-generator", "SHA1 Generator", "Generate SHA-1 hash from any text", "security", "hash", "#", ["sha1", "hash", "checksum", "crypto"]),
-  tool("sha256-generator", "SHA256 Generator", "Generate SHA-256 hash from any text", "security", "hash", "#", ["sha256", "sha-256", "hash", "checksum"], { favorite: true }),
-  tool("sha512-generator", "SHA512 Generator", "Generate SHA-512 hash from any text", "security", "hash", "#", ["sha512", "sha-512", "hash", "checksum"]),
-  tool("bcrypt-generator", "Bcrypt Generator", "Generate bcrypt password hashes", "security", "hash", "#", ["bcrypt", "password", "hash", "salt"]),
-  tool("hmac-generator", "HMAC Generator", "Generate HMAC signatures with a secret key", "security", "hash", "#", ["hmac", "signature", "hash", "mac"]),
+  tool("md5-generator", "MD5 Generator", "Generate MD5 hash from text", "developer", "hash", "🔐", ["md5", "generator", "hash", "md5 hash", "md5 encoder", "checksum"], { href: "/md5-generator" }),
+  tool("sha1-generator", "SHA-1 Generator", "Generate SHA-1 hash from text", "developer", "hash", "🔐", ["sha1", "generator", "hash", "sha1 hash", "sha1 encoder", "checksum"], { href: "/sha1-generator" }),
+  tool("sha256-generator", "SHA-256 Generator", "Generate SHA-256 hash from text", "developer", "hash", "🔐", ["sha256", "generator", "hash", "sha256 hash", "sha-256", "secure hash"], { href: "/sha256-generator", popular: true }),
+  tool("sha512-generator", "SHA-512 Generator", "Generate SHA-512 hash from text", "developer", "hash", "🔐", ["sha512", "generator", "hash", "sha512 hash", "sha-512", "secure hash", "strong hash"], { href: "/sha512-generator" }),
+  tool("bcrypt-generator", "BCrypt Generator", "Generate BCrypt hash from text", "developer", "hash", "🔐", ["bcrypt", "generator", "hash", "bcrypt hash", "password hash", "secure hash"], { href: "/bcrypt-generator" }),
+  tool("hmac-generator", "HMAC Generator", "Generate HMAC hash with secret key", "developer", "hash", "🔐", ["hmac", "generator", "hash", "hmac hash", "message authentication", "hmac sha256", "hmac sha512"], { href: "/hmac-generator" }),
 
   // UUID
   tool("uuid-v4", "UUID v4 Generator", "Generate random UUID v4 identifiers", "developer", "uuid", "🆔", ["uuid", "v4", "guid", "generator", "unique id"], { popular: true }),
